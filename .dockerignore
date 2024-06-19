@@ -1,0 +1,6 @@
+*
+!node_modules
+!lib
+!package.json
+!typeorm/migration/*.ts
+!tsconfig.json

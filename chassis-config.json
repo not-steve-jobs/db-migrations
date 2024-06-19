@@ -1,0 +1,4 @@
+{
+  "$schema": "./node_modules/@internal/chassis-cli/schemas/chassis-config-file.schema.json",
+  "project": "mw-library"
+}

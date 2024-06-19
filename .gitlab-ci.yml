@@ -1,0 +1,3 @@
+include:
+  - project: 'middleware/pipelines'
+    file: '/node/db-migrations.gitlab-ci.yml'

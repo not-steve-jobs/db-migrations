@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node16",
+  "include": [
+    "./node_modules/@internal/jest-extends/**/*.d.ts",
+    "src",
+    "typings"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "baseUrl": "./",
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "strictPropertyInitialization": false
+  }
+}
